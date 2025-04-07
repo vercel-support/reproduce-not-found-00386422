@@ -6,8 +6,10 @@ const nextConfig = {
     defaultLocale: "en",
     localeDetection: false
   },
+  experimental: {
   outputFileTracingIncludes: {
     "**": ['./pages/404.tsx']
+  }
   }
 };
 
