@@ -5,6 +5,11 @@ const nextConfig = {
     locales: ["en-GB", "en"],
     defaultLocale: "en",
     localeDetection: false
+  },
+    experimental: {
+  outputFileTracingIncludes: {
+    "**": ['./pages/404.tsx']
+  }
   }
 };
 
